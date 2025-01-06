@@ -13,8 +13,8 @@ public class BaseTestConfig {
         browserCapabilities = options;
         browserSize = null;
         baseUrl = "https://tkt.ge/";
-        timeout = 20000;
-        pageLoadTimeout = 25000;
+        timeout = 5000;
+        pageLoadTimeout = 15000;
         holdBrowserOpen = false;
         reopenBrowserOnFail = true;
         savePageSource = false;
